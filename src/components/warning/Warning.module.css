@@ -1,0 +1,7 @@
+.warningContainer {
+  margin-left: auto;
+  background-color: rgb(243, 106, 106);
+  height: 50px;
+  border-radius: 5px;
+  padding: 25px;
+}

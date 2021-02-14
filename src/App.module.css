@@ -1,0 +1,30 @@
+.container {
+  padding: 10px 30px;
+}
+
+.enter {
+  transform: translateX(-100%);
+}
+
+.enterActive {
+  transform: translateX(0);
+  transition: all 250ms linear;
+}
+
+.exit {
+  transform: translateX(0);
+}
+
+.exitActive {
+  transform: translateX(-100%);
+  transition: all 250ms linear;
+}
+
+.appear {
+  transform: translateX(-100%);
+}
+
+.appearActive {
+  transform: translateX(0);
+  transition: transform 500ms linear;
+}

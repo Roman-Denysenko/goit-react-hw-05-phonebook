@@ -1,0 +1,52 @@
+.form {
+  border: 2px solid black;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 350px;
+  background-color: rgb(202, 202, 202);
+}
+
+.input {
+  margin-bottom: 10px;
+  max-width: 100%;
+  padding: 3px;
+}
+
+.lable {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+.button {
+  padding: 5px;
+  background-color: rgb(222, 252, 214);
+  font-weight: 500;
+  padding: 2px 5px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.enter {
+  transform: translateX(100%);
+}
+
+.enterActive {
+  transform: translateX(50%);
+  transition: all 250ms linear;
+}
+
+.exit {
+  transform: translateX(50%);
+}
+
+.exitActive {
+  transform: translateX(100%);
+  transition: all 250ms linear;
+}
